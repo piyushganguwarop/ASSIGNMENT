@@ -1,16 +1,17 @@
 
 student_marks = {
-    "Zoro": 85,
-    "Luffy": 78,
-    "Igris": 92,
-    "Jaideep": 88,
-    "Bhoomi": 76
+    "Alice": 85,
+    "Bob": 78,
+    "Charlie": 92,
+    "Diana": 88,
+    "Ethan": 75
 }
 
-student_name = input("Enter the student's name: ")
+
+name = input("Enter the student's name: ")
 
 
-if student_name in student_marks:
-    print(f"{student_name}'s marks: {student_marks[student_name]}")
+if name in student_marks:
+    print(f"{name}'s marks: {student_marks[name]}")
 else:
-    print(f"Student '{student_name}' not found in the records.")
+    print(f"Student named '{name}' not found.")
